@@ -2,6 +2,9 @@
   --bodytag-color: #434455;
   --background-color: #ffffff;
 }
+img {
+  display: block;
+}
 
 body {
   background-color: var(--background-color);
