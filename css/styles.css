@@ -1,6 +1,7 @@
 :root {
   --bodytag-color: #434455;
   --background-color: #ffffff;
+  --line-styling: none;
 }
 img {
   display: block;
@@ -26,6 +27,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .inside-logo {
@@ -40,7 +42,9 @@ body {
 }
 
 .list {
-  list-style: none;
+  list-style: var(--line-styling);
+  display: flex;
+  gap: 40px;
 }
 
 .link {
@@ -201,4 +205,31 @@ body {
 
 .port-default {
   list-style: none;
+}
+
+/* Homework 3 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.navigation-logo {
+  display: flex;
+  width: 1158px;
+  align-items: center;
+}
+.lists {
+  list-style: var(--line-styling);
+  display: flex;
+}
+.headerlink {
+  padding: 24px 0;
 }
