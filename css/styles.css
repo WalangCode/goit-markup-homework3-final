@@ -220,6 +220,7 @@ body {
   display: flex;
   margin: 0 auto;
   padding: 0 15px;
+  width: 1158px;
 }
 .navigation-logo {
   display: flex;
@@ -231,5 +232,7 @@ body {
   display: flex;
 }
 .headerlink {
+}
+.link-style {
   padding: 24px 0;
 }
