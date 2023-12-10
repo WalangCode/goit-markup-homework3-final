@@ -130,7 +130,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
 }
 
 /* Section 4 */
@@ -288,9 +287,9 @@ body {
 .section-list {
   width: calc((100% - 48px) / 3);
 }
-.sec-header {
+.sectioned-header {
   margin-bottom: 72px;
 }
-.secs-list {
+.display-list {
   width: calc((100% - 48px) / 3);
 }
