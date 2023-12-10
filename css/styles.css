@@ -130,6 +130,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 /* Section 4 */
@@ -273,4 +274,12 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.section_three-styles {
+  padding-bottom: 130px;
+}
+
+.sec3-list {
+  gap: 24px;
 }
