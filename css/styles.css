@@ -283,3 +283,6 @@ body {
 .sec3-list {
   gap: 24px;
 }
+.img-clas {
+  width: calc((100% - 48px) / 3);
+}
