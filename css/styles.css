@@ -280,3 +280,11 @@ body {
 .section_three-styles {
   padding-bottom: 72px;
 }
+.sec3-list-styles {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+.sec3-list {
+  width: calc((100% - 48px) / 3);
+}
