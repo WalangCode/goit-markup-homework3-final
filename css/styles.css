@@ -275,17 +275,8 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/* section 3 */
 
 .section_three-styles {
-  padding-bottom: 120px;
-}
-
-.sec3-list-styles {
-  list-style: var(--line-styling);
-  display: flex;
-  gap: 24px;
-}
-.sec3-list {
-  gap: 24px;
-  width: calc((100% - 48px) / 3);
+  padding-bottom: 72px;
 }
