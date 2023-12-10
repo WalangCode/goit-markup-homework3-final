@@ -278,13 +278,19 @@ body {
 /* section 3 */
 
 .section-styles {
-  padding-bottom: 72px;
+  padding-bottom: 120px;
 }
 .section-three {
   list-style: none;
-  display: flex;
   gap: 24px;
+  display: flex;
 }
 .section-list {
+  width: calc((100% - 48px) / 3);
+}
+.sec-header {
+  margin-bottom: 72px;
+}
+.secs-list {
   width: calc((100% - 48px) / 3);
 }
