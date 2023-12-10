@@ -277,14 +277,14 @@ body {
 }
 /* section 3 */
 
-.section_three-styles {
+.section-styles {
   padding-bottom: 72px;
 }
-.sec3-list-styles {
+.section-three {
   list-style: none;
   display: flex;
   gap: 24px;
 }
-.sec3-list {
+.section-list {
   width: calc((100% - 48px) / 3);
 }
