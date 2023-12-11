@@ -294,6 +294,7 @@ body {
   gap: 24px;
   display: flex;
   text-decoration: none;
+  list-style: none;
 }
 .section-list {
   width: calc((100% - 48px) / 3);
