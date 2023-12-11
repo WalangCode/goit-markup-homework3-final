@@ -290,9 +290,9 @@ body {
   padding-bottom: 120px;
   list-style: none;
 }
-.section-three {
-  display: flex;
+.section_three {
   gap: 24px;
+  display: flex;
   text-decoration: none;
 }
 .section-list {
