@@ -288,9 +288,12 @@ body {
 
 .section-style {
   padding-bottom: 120px;
+  list-style: none;
 }
 .section-three {
   display: flex;
+  gap: 24px;
+  text-decoration: none;
 }
 .section-list {
   width: calc((100% - 48px) / 3);
